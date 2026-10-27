@@ -1,0 +1,13 @@
+# Course-provided HCP data and all generated volumes / patches
+MRI/
+*.bin
+*.npy
+!masks/*.npy
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
